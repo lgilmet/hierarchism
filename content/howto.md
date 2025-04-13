@@ -1,5 +1,6 @@
 # Hierarchism
 ## or how to kill gods
+<h2>same title</h2>
 
 This is a **community book** built for rewriting history.
 

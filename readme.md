@@ -18,6 +18,18 @@ No text is sacred. Erase and rewrite it.
 Fork the repository and clone it to your local machine.
 ### 2. Add your piece
 Add your piece to the book. You can add a new chapter or edit an existing one.
+View your changes localy. Run the command
+
+Start a local server (Markdown files won't load via file:// protocol)
+
+For Python: python3 -m http.server
+
+Visit http://localhost:8000
+
+Or use a VSCode extension like ["Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+Visit: http://127.0.0.1:5500
+
 ### 3. Upload your changes
 Create your own github repo to publish your changes.
 ### 4. Share your changes
