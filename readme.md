@@ -1,7 +1,7 @@
 # Hierarchism
-## or how to kill gods
 
-This is a **community book** built for rewriting history.
+This is a **open source book** built for rewriting history.
+[https://github.com/lgilmet/hierarchism](https://github.com/lgilmet/hierarchism)
 
 Features:
 - Get started in minutes

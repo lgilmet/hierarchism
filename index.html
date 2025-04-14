@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <base href="/" />
     <title>Hierarchism or How to kill a god</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="marked.js"></script>
+    <script src="/marked.js"></script>
+    <script src="/navbar/navbar.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="#hierarchism">Hierarchism</a>
-      <a href="#howto">Howto</a>
-      <div class="dropdown">
-        <button class="dropbtn">Doors</button>
-        <div class="dropdown-content">
-          <a href="#door/the-rave">The rave</a>
-          <a href="#door/chat-1">Chat-1</a>
-        </div>
-      </div>
-    </nav>
+    <top-navbar></top-navbar>
+
     <div id="content"></div>
+
+    <footer>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          padding: 8px 0;
+        "
+      >
+        <div>
+          <a href="#readme" style="color: black; text-underline-offset: 2px"
+            >Readme</a
+          >
+        </div>
+
+        <div style="margin-right: 2rem">lucasguillemette.com</div>
+      </div>
+    </footer>
 
     <div
       style="
         position: fixed;
         bottom: 0;
         right: 0;
-        text-align: center;
-        background-color: #f8f9fa;
         border-radius: 3px;
         padding: 8px;
       "
       onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
     >
       <img
-        src="assets/up.png"
+        src="favicon.ico"
         alt="Scroll to top"
-        style="width: 20px; height: 20px"
+        style="width: 32px; height: 32px"
       />
     </div>
-    <script src="script.js"></script>
+
+    <script src="/script.js"></script>
   </body>
 </html>
-

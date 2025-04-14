@@ -1,6 +1,12 @@
 async function loadContent() {
   const hash = window.location.hash.substring(1) || "hierarchism";
-  const path = `content/${hash}.md`;
+
+  let path;
+  if (hash === "readme") {
+    path = "readme.md";
+  } else {
+    path = `content/${hash}.md`;
+  }
 
   try {
     const response = await fetch(path);
