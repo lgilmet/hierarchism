@@ -1,11 +1,18 @@
 body {
   max-width: 800px;
-  max-width: 90%; /* Use percentage for width */
   font-size: 1rem; /* Use rem for font sizes */
   margin: 0 auto;
   padding: 12px;
   font-family: system-ui;
   line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    max-width: 100%; /* Full width on small screens */
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+  }
+  
 }
 
 nav {
