@@ -3,7 +3,7 @@
 
 Hierarchism is a belief system. Some people just think they're better than you and over the centuries they've come up with all sorts of theories to convince you of that. 
 
-This is a unedited chat with Deepseek AI where I'm getting up to speed with the current working theory. It's a great perspective. 
+This is a unedited chat with Deepseek AI where I'm getting it up to speed with the current working theory. It's a great perspective. 
 
 <div class="article-details">
   <title>Unveiling Oppression's Core Beliefs | Hierarchism</title>
