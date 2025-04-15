@@ -25,14 +25,30 @@ html {
   margin: 0;
 }
 
+a {
+  text-underline-offset: 0.2rem;
+  color: black;
+}
 #content {
-  /* margin-top: 1rem; */
   flex-grow: 1;
 }
 
-/* nav {
-  margin-bottom: 2rem;
-} */
+.scroll-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 3px;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  transform: rotate(180deg);
+}
 
 code {
   background: #eee;
@@ -113,11 +129,6 @@ ul {
   background-color: #fff3;
   border-radius: 5px;
   display: inline-block;
-}
-
-.definition-box a {
-  text-underline-offset: 0.2rem;
-  color: black;
 }
 
 .tight-typo {

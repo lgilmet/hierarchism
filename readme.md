@@ -38,7 +38,8 @@ Host via github pages or any other static hosting service.
 Share your book with the world. You can share it on social media or with your friends.
 
 ## Useful links
+- [Markdown Editor](https://markdowneditor.net/markdown-editor/)
+- [Markdown Cheatsheet](https://github.com/im-luka/markdown-cheatsheet)
 - [Github](https://github.com)
 - [Github Pages](https://pages.github.com/)
 - [Markdown](https://www.markdownguide.org/)
-- [Markdown Cheatsheet](https://github.com/im-luka/markdown-cheatsheet)
