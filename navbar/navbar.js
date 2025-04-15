@@ -15,8 +15,8 @@ class TopNavbar extends HTMLElement {
 
   async render() {
     // Fetch the CSS and HTML content from navbar.html
-    const response = await fetch("navbar/navbar.html");
-    const navbarHTML = await response.text();
+    const response = await fetch("navbar/navbar.css");
+    const style = await response.text();
     this._menuData = [
       { text: "Hierarchism", href: "#hierarchism" },
       {
@@ -55,7 +55,7 @@ class TopNavbar extends HTMLElement {
 
     // Combine the fetched CSS and dynamically generated HTML
     const combinedHTML = `
-        ${navbarHTML}
+        <style>${style}</style>
         ${menuHTML}
       `;
 
