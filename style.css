@@ -6,7 +6,7 @@ body {
   font-size: 1rem; /* Use rem for font sizes */
   margin: 0 auto;
   /* padding: 12px; */
-  padding: 0 10px;
+  padding: 0 15px;
   font-family: system-ui;
   line-height: 1.6;
   background: linear-gradient(135deg, #d9e1f6, #f7e5e596, #f3ead3);
@@ -16,7 +16,8 @@ body {
 @media screen and (max-width: 600px) {
   body {
     max-width: 100%;
-    font-size: 0.8rem;
+
+   /* font-size: 0.8rem;*/
   }
 }
 
