@@ -15,6 +15,10 @@ async function loadContent() {
     content.innerHTML = marked.parse(md);
     const title = content.querySelector("title");
     document.title = title ? title.innerText : "Hierarchism";
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
   } catch (error) {
     document.getElementById("content").innerHTML = `
             <h1>404</h1>

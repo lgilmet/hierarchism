@@ -16,5 +16,9 @@
 
 3. ## crime
   - crime is a symptom of poverty
-  - 
+
+4. ## Military
+   - The state needs to prove it needs an army
+   - Invent the need, prove the use
+   - Respectability of the military is a virtue
   

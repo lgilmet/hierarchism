@@ -20,8 +20,12 @@ Hierarchism is the doctrine that presumes there must be a just way to rank peopl
 This is how they thought the planets moved when theologians built the truth. Today's world will look the same when we look back in 100 years.
 
 <!-- https://i.sstatic.net/A4Rd1.jpg -->
-<img src="/assets/geocentric.png" alt="Achilles heel" width="1024"
-    style="width: 100%; height: auto; max-width: 100%;">
+<div style="display: flex; justify-content: center;">
+    <img src="/assets/geocentric.png" alt="Achilles heel" width="1024"
+        style="width: 100%; height: auto; max-width: 600px;">
+</div>
+<!-- <img src="/assets/geocentric.png" alt="Achilles heel" width="1024"
+    style="width: 100%; height: auto; max-width: 600px; margin-inline: auto; border: 1px solid black;"> -->
 
 Shame is dead. Now let's kill it. It's not self improvement. It's terraforming. 
 
