@@ -5,10 +5,24 @@ nav {
   padding: 10px 0;
 }
 
-.navbar-container {
+.navbar-section {
+  height: 50px;
+}
+
+.navbar-spacer {
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* flex-direction: row; */
+  width: 100%;
 }
 .navbar a {
   text-decoration: none;

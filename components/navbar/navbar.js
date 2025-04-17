@@ -19,35 +19,38 @@ class TopNavbar extends HTMLElement {
     this._menuData = [{ text: "Hierarchism", href: "" }];
     // Generate the menu dynamically
     const menuHTML = `
-    <div class="navbar-container">
-        <nav class="navbar">
-          ${this._menuData
-            .map((item) => {
-              if (item.dropdown) {
-                return `
-                  <div class="dropdown">
-                    <button class="dropbtn">${item.text}</button>
-                    <div class="dropdown-content">
-                    <div class="content-border">
-                      ${item.dropdown
-                        .map(
-                          (subItem) =>
-                            `<a href="${subItem.href}">${subItem.text}</a>`
-                        )
-                        .join("")}
+    <div class="navbar-section">
+      <div class="navbar-container">
+          <div class="navbar-spacer">
+            <nav class="navbar">
+              ${this._menuData
+                .map((item) => {
+                  if (item.dropdown) {
+                    return `
+                      <div class="dropdown">
+                        <button class="dropbtn">${item.text}</button>
+                        <div class="dropdown-content">
+                        <div class="content-border">
+                          ${item.dropdown
+                            .map(
+                              (subItem) =>
+                                `<a href="${subItem.href}">${subItem.text}</a>`
+                            )
+                            .join("")}
+                            </div>
                         </div>
-                    </div>
-                  </div>
-                `;
-              } else {
-                return `<a href="${item.href}">${item.text}</a>`;
-              }
-            })
-            .join("")}
-
-        </nav>
-            
-    <side-bar></side-bar>
+                      </div>
+                    `;
+                  } else {
+                    return `<a href="${item.href}">${item.text}</a>`;
+                  }
+                })
+                .join("")}
+            </nav>
+                  
+                    <side-bar></side-bar>
+          </div>
+      </div>
     </div>
       `;
 

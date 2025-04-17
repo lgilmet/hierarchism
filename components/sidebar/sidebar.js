@@ -79,7 +79,7 @@ class SideBar extends HTMLElement {
           </div>
               <nav class="sidebar" id="mySidebar">
                 <div class="sidebar-header">
-                    <span>Hierarchism</span>
+                    <span></span>
                     <button class="closebtn" >
                         <div class="x-icon">
                         </div>
@@ -115,12 +115,10 @@ class SideBar extends HTMLElement {
     // // Combine the fetched CSS and dynamically generated HTML
     const combinedHTML = `
           <style>${style}</style>
-          <div style="position: relative; display:block;">
               <button class="openbtn">
                 <div class="hamburger">
                 </div>
               </button>
-          </div>
           ${menuHTML}
         `;
 
