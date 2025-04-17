@@ -1,14 +1,14 @@
-## Leviathan, noble lie reboot
+## The Leviathan is the Lord of the flies
 
-A changing world required a new rational. They rebooted the nobel lie because religion wasn't satisfying to the enlightened anymore. The moral dissonance of justifying slavery/oppression/hierarchism and equality at the same time required a new lie. Today we do the same with the Lord of the Flies. 
+During the enlightenment, a changing world required a new rational. They rebooted the noble lie because religion wasn't satisfying to the enlightened anymore. The moral dissonance of justifying slavery/oppression/hierarchism and equality at the same time required a new lie. Today we do the same with the Lord of the Flies. 
+
+All these lies are still actively taught in schools.
 
 <div class="article-details">
   <title>The Leviathan of flies</title>
-  <div>Author: Lucas,</div>
-  <div>Date: 2025-04-17,</div>
-  <!-- <div>Tags: ["shame", "mental illness", ],</div> -->
-  <!-- <div>Summary: "Kill shame and dismantle the pyramid.",</div> -->
-  <div>Chat Agent: Deepseek</div>
+  <div class="name">By Lucas</div>
+  <div>2025-04-17</div>
+  <div>With Deepseek AI</div>
 </div>
 
 ---

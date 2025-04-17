@@ -7,11 +7,9 @@ This is a unedited chat with Deepseek AI where I'm getting it up to speed with t
 
 <div class="article-details">
   <title>Unveiling Oppression's Core Beliefs | Hierarchism</title>
-  <div>Author: Lucas,</div>
-  <div>Date: 2025-04-14,</div>
-  <!-- <div>Tags: ["shame", "mental illness", ],</div> -->
-  <!-- <div>Summary: "Kill shame and dismantle the pyramid.",</div> -->
-  <div>Chat Agent: Deepseek</div>
+  <div>By Lucas</div>
+  <div>2025-04-14,</div>
+  <div>With Deepseek AI</div>
 </div>
 
 ---

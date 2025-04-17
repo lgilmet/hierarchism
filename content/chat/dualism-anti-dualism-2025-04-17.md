@@ -5,9 +5,9 @@ Separating people into categories, creating dualities, requires fusing different
 
 <div class="article-details">
   <title>Dualism/Anti-dualism</title>
-  <div>Author: Lucas,</div>
-  <div>Date: 2025-04-17,</div>
-  <div>Chat Agent: Deepseek</div>
+  <div class="name">By Lucas</div>
+  <div>2025-04-17</div>
+  <div>With Deepseek AI</div>
 </div>
 
 ## Query 

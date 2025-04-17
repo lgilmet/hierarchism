@@ -47,6 +47,14 @@ class SideBar extends HTMLElement {
     }
   }
 
+  toggleDarkMode() {
+    const negative = document.querySelector(".negative");
+
+    if (negative) {
+      negative.classList.toggle("hidden");
+    }
+  }
+
   addEventListeners() {
     // Attach event listeners to buttons
     const openButton = this.shadowRoot.querySelector(".openbtn");
@@ -55,6 +63,7 @@ class SideBar extends HTMLElement {
     const links = this.shadowRoot.querySelectorAll(
       ".sidebar-content .closebtn"
     );
+    const darkmodeButton = this.shadowRoot.querySelector(".darkmode");
 
     if (openButton) {
       openButton.addEventListener("click", () => this.openNav());
@@ -75,6 +84,10 @@ class SideBar extends HTMLElement {
       links?.forEach((link) => {
         link.addEventListener("click", () => this.closeNav());
       });
+    }
+
+    if (darkmodeButton) {
+      darkmodeButton.addEventListener("click", () => this.toggleDarkMode());
     }
   }
 
@@ -100,7 +113,7 @@ class SideBar extends HTMLElement {
                     if (item.dropdown) {
                       return `
 
-                        <details>
+                        <details ${item.open ? "open" : ""} >
                         <summary>${item.text}</summary>
                         <div class="dropdown-content">
                         ${item.dropdown
@@ -124,10 +137,15 @@ class SideBar extends HTMLElement {
     // // Combine the fetched CSS and dynamically generated HTML
     const combinedHTML = `
           <style>${style}</style>
+          <div style="display: flex; gap: 10px; align-items: center;">
+          <button class="darkmode">
+          ◑
+          </button>
               <button class="openbtn">
                 <div class="hamburger">
                 </div>
               </button>
+              </div>
           ${menuHTML}
         `;
 

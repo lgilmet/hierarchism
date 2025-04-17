@@ -19,11 +19,21 @@ Hierarchism is the doctrine that presumes there must be a just way to rank peopl
 
 This is how they thought the planets moved when theologians built the truth. Today's world will look the same when we look back in 100 years.
 
+
+<div class="spacer-medium"></div>
 <!-- https://i.sstatic.net/A4Rd1.jpg -->
-<div style="display: flex; justify-content: center;">
-    <img src="/assets/geocentric.png" alt="Achilles heel" width="1024"
+<figure style="display: flex; flex-direction: column; justify-content: center; 
+          align-items: center;">
+<img src="/assets/geocentric.png" alt="Achilles heel" width="1024"
         style="width: 100%; height: auto; max-width: 600px;">
-</div>
+<figcaption style="display: block; max-width: 400xp; margin: 0 auto; font-size: small">
+
+*A geocentric model of our universe, from James Ferguson’s 1756 “Astronomy Explained,” highlights its absurdity; the Ptolemaic system required that the planets in our solar system orbit Earth in strange, looping arcs.*
+
+</figcaption>
+</figure>
+
+<div class="spacer-small"></div>
 <!-- <img src="/assets/geocentric.png" alt="Achilles heel" width="1024"
     style="width: 100%; height: auto; max-width: 600px; margin-inline: auto; border: 1px solid black;"> -->
 
@@ -33,7 +43,7 @@ Seeing hierarchism helps us make sense of this nonsense.
 
 ### When we kill shame, hierarchies shake. 
 
-[Start here](#chat/oppression-s-core-beliefs-2025-04-14)
+[Start here](#chat/leviathan-myth-2025-04-17)
 
 
 <div class="spacer-medium"></div>
