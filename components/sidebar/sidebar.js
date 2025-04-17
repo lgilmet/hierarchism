@@ -22,7 +22,10 @@ class SideBar extends HTMLElement {
       sidebar.style.right = "0";
     }
     if (background) {
-      background.style.right = "0";
+      background.classList.remove("hidden"); // Remove the hidden class to show the backdrop
+      setTimeout(() => {
+        background.classList.add("visible"); // Add the visible class to fade in
+      }, 10); // Add a small delay to allow the transition to start
     }
   }
 
@@ -30,11 +33,17 @@ class SideBar extends HTMLElement {
     console.log("closeNav");
     const sidebar = this.shadowRoot.getElementById("mySidebar");
     const background = this.shadowRoot.querySelector(".sidebar-container");
+
+    console.log(background);
     if (sidebar) {
       sidebar.style.right = "-100%";
     }
     if (background) {
-      background.style.right = "-100%";
+      background.classList.remove("visible"); // Remove the visible class to fade out
+      // Wait for the transition to complete before removing the backdrop
+      setTimeout(() => {
+        background.classList.add("hidden"); // Add the hidden class to hide the backdrop
+      }, 300); // Match the transition duration (0.3s)
     }
   }
 
@@ -75,7 +84,7 @@ class SideBar extends HTMLElement {
     const sidebarResponse = await fetch("components/sidebar/sidebar.json");
     this._menuData = await sidebarResponse.json();
     const menuHTML = `
-          <div class="sidebar-container">
+          <div class="sidebar-container hidden">
           </div>
               <nav class="sidebar" id="mySidebar">
                 <div class="sidebar-header">

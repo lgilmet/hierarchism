@@ -16,8 +16,6 @@ body {
 @media screen and (max-width: 600px) {
   body {
     max-width: 100%;
-
-   /* font-size: 0.8rem;*/
   }
 }
 
@@ -152,9 +150,19 @@ ul {
 @media screen and (max-width: 600px) {
   .query {
     margin-left: 1rem;
-    /* margin-right: 0;
-    border-radius: 0;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem; */
   }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+table th,
+table td {
+  /* border: 1px solid #ddd; */
+  border-bottom: 1px solid #979797;
+  padding: 8px;
+  text-align: left;
 }
