@@ -1,0 +1,17 @@
+[
+  { "text": "Hierarchism", "href": "#hierarchism" },
+
+  {
+    "text": "Chats?",
+    "dropdown": [
+      {
+        "text": "Oppressions' Core Beliefs",
+        "href": "#chat/oppression-s-core-beliefs-2025-04-14"
+      },
+      {
+        "text": "Trading safety for compliance",
+        "href": "#chat/compliance-safety-2025-04-15"
+      }
+    ]
+  }
+]

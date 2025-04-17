@@ -4,28 +4,22 @@ class TopNavbar extends HTMLElement {
     this.attachShadow({ mode: "open" });
   }
 
-  // set menu(data) {
-  //   this._menuData = data || [];
-  //   this.render();
-  // }
+  set menu(data) {
+    this._menuData = data || [];
+    this.render();
+  }
 
   async connectedCallback() {
     await this.render();
   }
 
   async render() {
-    // Fetch the CSS and HTML content from navbar.html
-    const response = await fetch("navbar/navbar.css");
+    const response = await fetch("components/navbar/navbar.css");
     const style = await response.text();
-    this._menuData = [
-      { text: "Hierarchism", href: "#hierarchism" },
-      {
-        text: "Do you believe?",
-        href: "#chat/oppression-s-core-beliefs-2025-04-14",
-      },
-    ];
+    this._menuData = [{ text: "Hierarchism", href: "" }];
     // Generate the menu dynamically
     const menuHTML = `
+    <div class="navbar-container">
         <nav class="navbar">
           ${this._menuData
             .map((item) => {
@@ -50,7 +44,11 @@ class TopNavbar extends HTMLElement {
               }
             })
             .join("")}
+
         </nav>
+            
+    <side-bar></side-bar>
+    </div>
       `;
 
     // Combine the fetched CSS and dynamically generated HTML

@@ -4,6 +4,12 @@ nav {
   gap: 10px;
   padding: 10px 0;
 }
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .navbar a {
   text-decoration: none;
   color: black;
