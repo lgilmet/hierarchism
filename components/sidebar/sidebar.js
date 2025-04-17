@@ -49,9 +49,13 @@ class SideBar extends HTMLElement {
 
   toggleDarkMode() {
     const negative = document.querySelector(".negative");
+    const body = document.querySelector("body");
 
     if (negative) {
       negative.classList.toggle("hidden");
+    }
+    if (body) {
+      body.classList.toggle("darkmode");
     }
   }
 

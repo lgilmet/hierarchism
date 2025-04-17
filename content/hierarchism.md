@@ -21,10 +21,11 @@ This is how they thought the planets moved when theologians built the truth. Tod
 
 
 <div class="spacer-medium"></div>
+<!-- https://www.desertislandsurvival.com/wp-content/uploads/2023/08/tongan.jpg.webp -->
 <!-- https://i.sstatic.net/A4Rd1.jpg -->
 <figure style="display: flex; flex-direction: column; justify-content: center; 
           align-items: center;">
-<img src="/assets/geocentric.png" alt="Achilles heel" width="1024"
+<img src="/assets/geocentric.png" alt="Achilles heel" width="1024" class=""
         style="width: 100%; height: auto; max-width: 600px;">
 <figcaption style="display: block; max-width: 400xp; margin: 0 auto; font-size: small">
 
@@ -34,8 +35,7 @@ This is how they thought the planets moved when theologians built the truth. Tod
 </figure>
 
 <div class="spacer-small"></div>
-<!-- <img src="/assets/geocentric.png" alt="Achilles heel" width="1024"
-    style="width: 100%; height: auto; max-width: 600px; margin-inline: auto; border: 1px solid black;"> -->
+
 
 Shame is dead. Now let's kill it. It's not self improvement. It's terraforming. 
 

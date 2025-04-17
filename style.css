@@ -62,6 +62,11 @@ a {
   backdrop-filter: invert(0.95);
 }
 
+.darkmode img.no-negative {
+  filter: invert(1) !important;
+  /* opacity: 0.2; */
+}
+
 img,
 video {
   filter: none !important;
