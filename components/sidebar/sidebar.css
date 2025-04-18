@@ -66,11 +66,11 @@
   margin: 0;
 }
 
-.darkmode {
+.darkmodebtn {
   border: none;
   background-color: transparent;
   font-size: large;
-  padding-top: 3px;
+  /* padding-top: 3px; */
 }
 
 .sidebar-header button {

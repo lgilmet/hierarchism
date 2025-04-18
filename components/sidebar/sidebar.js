@@ -67,7 +67,7 @@ class SideBar extends HTMLElement {
     const links = this.shadowRoot.querySelectorAll(
       ".sidebar-content .closebtn"
     );
-    const darkmodeButton = this.shadowRoot.querySelector(".darkmode");
+    const darkmodeButton = this.shadowRoot.querySelector(".darkmodebtn");
 
     if (openButton) {
       openButton.addEventListener("click", () => this.openNav());
@@ -142,7 +142,7 @@ class SideBar extends HTMLElement {
     const combinedHTML = `
           <style>${style}</style>
           <div style="display: flex; gap: 10px; align-items: center;">
-          <button class="darkmode">
+          <button class="darkmodebtn">
           ◑
           </button>
               <button class="openbtn">
